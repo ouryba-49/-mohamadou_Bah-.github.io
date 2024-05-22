@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Fancy gradient background */
+    color: #fff; /* White text color for better readability on dark background */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent background */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 8px;
+    color: #333; /* Dark text for sections for readability */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Adjusted main layout for reduced blank space */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;  /* Adjusted for optimal use of vertical space */
+    padding: 20px; /* Ensures padding within the main for any content */
+}
+
+/* Updated button styles for better spacing and interaction */
+button {
+    padding: 15px 30px;
+    margin: 10px;  /* Space between buttons */
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
